@@ -21,7 +21,7 @@ def measurement(arr):
 
 def slicingMeasurment(arr):
     prevMeasurment = arr[0] + arr[1] + arr[2]
-    measurement = 0;
+    measurement = 0
 
     for i in range(3, len(arr)):  
         curMeasurment = prevMeasurment + arr[i] - arr[i - 3]
