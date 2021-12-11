@@ -1,3 +1,6 @@
+import time
+
+
 class Point:
     def __init__(self, x, y):
         self.x = x
@@ -101,10 +104,12 @@ def solution2(matrix, minimalsArr):
 
 
 if __name__ == '__main__':
+    t0 = time.time()
     file = open('files/day9.txt', 'r')
 
     matrix = fileToMatrix(file)
-
+    print((time.time() - t0) * 1000, 'ms')
     minimalsArr = solution1(matrix)
-
+    print((time.time() - t0) * 1000, 'ms')
     solution2(matrix, minimalsArr)
+    print((time.time() - t0) * 1000, 'ms')
