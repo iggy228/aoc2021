@@ -1,3 +1,4 @@
+import time
 from collections import defaultdict
 
 pathsCount = 0
@@ -63,9 +64,12 @@ def solution2(graph):
 
 
 if __name__ == '__main__':
+    t0 = time.time()
     file = open('files/day12.txt')
 
     graph = fileToGraph(file)
-
+    print((time.time() - t0) * 1000, 'ms')
     solution1(graph)
+    print((time.time() - t0) * 1000, 'ms')
     solution2(graph)
+    print((time.time() - t0) * 1000, 'ms')
