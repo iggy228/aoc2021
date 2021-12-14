@@ -46,7 +46,7 @@ def fold(points, instruction):
 
 
 def printPoints(points):
-    matrix = [['.' for col in range(40)] for row in range(6)]
+    matrix = [[' ' for col in range(200)] for row in range(7)]
 
     for point in points:
         matrix[point[1]][point[0]] = '#'
