@@ -105,7 +105,7 @@ def solution2(matrix, minimalsArr):
 
 if __name__ == '__main__':
     t0 = time.time()
-    file = open('files/day9.txt', 'r')
+    file = open('day9.txt', 'r')
 
     matrix = fileToMatrix(file)
     print((time.time() - t0) * 1000, 'ms')

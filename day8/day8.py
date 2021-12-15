@@ -80,7 +80,7 @@ def solution2(leftSideArr, rightSideArr):
 
 
 if __name__ == '__main__':
-    file = open('files/day8.txt')
+    file = open('day8.txt')
 
     leftSideArr, rightSideArr = fileToArrays(file)
 

@@ -32,7 +32,7 @@ def slicingMeasurment(arr):
 
     print('Second part: ', measurement)
 
-arr = openFile('files/day1.txt')
+arr = openFile('day1.txt')
 
 measurement(arr)
 

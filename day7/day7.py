@@ -31,7 +31,7 @@ def solution2(input_arr):
 
 
 if __name__ == '__main__':
-    input_arr = list(map(int, open('files/day7.txt').readline().strip().split(',')))
+    input_arr = list(map(int, open('day7.txt').readline().strip().split(',')))
 
     solution1(input_arr)
     solution2(input_arr)

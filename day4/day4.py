@@ -101,7 +101,7 @@ def main():
     numbersArr = []
     bingosArr = []
 
-    file = open('files/day4.txt')
+    file = open('day4.txt')
 
     numbersArr = loadNumbers(file)
 

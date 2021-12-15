@@ -91,7 +91,7 @@ def solution2(grid, start_points, end_points):
 
 
 if __name__ == '__main__':
-    start_points, end_points = open_file_as_two_array('files/day5.txt')
+    start_points, end_points = open_file_as_two_array('day5.txt')
     grid = define_grid(1000)
 
     solution1(grid, start_points, end_points)

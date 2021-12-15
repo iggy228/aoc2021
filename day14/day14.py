@@ -75,13 +75,12 @@ def solution(string, valMap, period):
         pairsMap = newCountMap
 
     smallest, largest = findSmallestAndlargest(lettersMap)
-    print(lettersMap)
     print('Solution:', largest - smallest)
 
 
 if __name__ == '__main__':
     t0 = time.time()
-    file = open('files/day14.txt')
+    file = open('day14.txt')
 
     string = file.readline().strip('\n')
     file.readline()
@@ -102,5 +101,5 @@ if __name__ == '__main__':
     print((time.time() - t0) * 1000, 'ms')
 
     print('Period 1000')
-    solution(string, valMap, 100)
+    solution(string, valMap, 1000)
     print((time.time() - t0) * 1000, 'ms')

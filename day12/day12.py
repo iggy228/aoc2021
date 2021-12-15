@@ -65,7 +65,7 @@ def solution2(graph):
 
 if __name__ == '__main__':
     t0 = time.time()
-    file = open('files/day12.txt')
+    file = open('day12.txt')
 
     graph = fileToGraph(file)
     print((time.time() - t0) * 1000, 'ms')

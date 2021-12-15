@@ -77,7 +77,7 @@ def solution2(arr):
 
 
 
-inputArr = loadFile('files/day3.txt')
+inputArr = loadFile('day3.txt')
 
 solution1(inputArr)
 

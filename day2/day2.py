@@ -48,7 +48,7 @@ def solution2(operations):
 
 
 
-submarineOperations = loadFile('files/day2.txt')
+submarineOperations = loadFile('day2.txt')
 
 solution1(submarineOperations)
 solution2(submarineOperations)

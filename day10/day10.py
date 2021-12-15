@@ -85,7 +85,7 @@ def solution2(arr):
 
 if __name__ == '__main__':
     t0 = time.time()
-    file = open('files/day10.txt')
+    file = open('day10.txt')
 
     arr = fileToArray(file)
     print((time.time() - t0) * 1000, 'ms')

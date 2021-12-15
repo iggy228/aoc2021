@@ -71,7 +71,7 @@ def solution(points, instructions):
 
 
 if __name__ == '__main__':
-    file = open('files/day13.txt')
+    file = open('day13.txt')
 
     pointsSet = fileToSet(file)
     instructions = fileToArr(file)

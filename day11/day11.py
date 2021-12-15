@@ -89,7 +89,7 @@ def solution(matrix, flashesMatrix):
 
 
 if __name__ == '__main__':
-    file = open('files/day11.txt')
+    file = open('day11.txt')
 
     matrix = fileToMatrix(file)
     flashesMatrix = defineFlashesMatrix(len(matrix), len(matrix[0]))
